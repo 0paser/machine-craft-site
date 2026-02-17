@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Craft | Tekkit Classic SMP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --accent: #38bdf8;
+            --text: #f8fafc;
+            --text-dim: #94a3b8;
+            --code-bg: #000000;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Replace 'background.jpg' with your image URL or file path */
+            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), 
+                url("assets/bg.jpg"); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Keeps the image still while you scroll */
+            color: var(--text);
+            margin: 0;
+            line-height: 1.6;
+            min-height: 100vh;
+            }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--accent);
+            text-decoration: none;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--text);
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+
+        .meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 20px;
+        }
+
+        h2 {
+            color: var(--accent);
+            margin-top: 40px;
+            border-left: 4px solid var(--accent);
+            padding-left: 15px;
+        }
+
+        p { margin-bottom: 20px; }
+
+        .pro-tip {
+            background: rgba(56, 189, 248, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            border-right: 4px solid var(--accent);
+            margin: 30px 0;
+        }
+
+        .item-list {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            list-style: none;
+        }
+
+        .item-list li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .item-list li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+        }
+
+        footer {
+            margin-top: 80px;
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="/" class="back-link">← Return to Home</a>
+    
+    <header>
+        <h1>Getting Started with Tekkit Classic</h1>
+        <div class="meta">Published: Feb 2026 • Category: Player Guides</div>
+    </header>
+
+    <article>
+        <p>Welcome to the industrial revolution. Tekkit Classic (Minecraft 1.2.5) is a different beast compared to modern modpacks. This guide will help you survive your first night and start your journey toward ProjectE and high-voltage power.</p>
+
+        <h2>1. The First Tool: The Divining Rod</h2>
+        <p>Before you build a massive factory, you need resources. Unlike modern Minecraft where you just strip mine, Tekkit Classic gives you the <strong>Divining Rod</strong>. This tool allows you to see the "value" of the blocks in front of you, helping you locate veins of Diamonds and Uranium much faster.</p>
+
+        <div class="pro-tip">
+            <strong>Pro-Tip:</strong> Don't throw away your Cobblestone! In this pack, almost everything has an <strong>EMC value</strong>. You can eventually use an Energy Condenser to turn that "trash" stone into valuable Red Matter.
+        </div>
+
+        <h2>2. Powering Your Machines</h2>
+        <p>You have two main paths for power: <strong>IC2 (IndustrialCraft 2)</strong> and <strong>BuildCraft</strong>. They do not use the same energy! </p>
+        <ul class="item-list">
+            <li><strong>IC2:</strong> Uses EU (Energy Units). Think Copper Cables and Macerators.</li>
+            <li><strong>BuildCraft:</strong> Uses MJ (Mechanical Joint). Think Stirling Engines and Quarrys.</li>
+        </ul>
+
+        <h2>3. Essential Starting Crafting</h2>
+        <p>Your first goals should be to craft these three items as soon as possible:</p>
+        <ul class="item-list">
+            <li><strong>Macerator:</strong> This doubles your ore output. One Iron Ore becomes two Iron Dust.</li>
+            <li><strong>Generator:</strong> To power that Macerator. Start with a basic coal-burning one.</li>
+            <li><strong>Transmutation Tablet:</strong> The "God-Tier" item of the pack. This allows you to trade items for their EMC value.</li>
+        </ul>
+
+        <h2>4. Server Rules</h2>
+        <p>Remember that while we allow most items, <strong>World Anchors</strong> are limited to 1 per player to keep the server running smoothly. Please check our Banned Items article for more details on specific explosives and griefing tools.</p>
+    </article>
+
+    <footer>
+        &copy; 2026 Machine Craft - Not an official Minecraft product Not affiliated Technic (Syndicate LLC).
+    </footer>
+</div>
+
+</body>
+</html>
