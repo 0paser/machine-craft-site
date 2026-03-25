@@ -130,6 +130,22 @@
             .grid { grid-template-columns: 1fr; }
             .server-status { flex-direction: column; gap: 15px; text-align: center; }
         }
+        .staff-btn {
+            display: inline-block;
+            border: 1px solid #334155;
+            color: var(--text-dim);
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: 0.3s;
+        }
+
+        .staff-btn:hover {
+            background: #1e293b;
+            color: var(--accent);
+            border-color: var(--accent);
+        }
     </style>
 </head>
 <body>
@@ -169,7 +185,6 @@
                 <a href="/articles/notes.html" class="article-link">→ Key Notes</a>
                 <a href="/articles/issues.html" class="article-link">→ Known Issues</a>
                 <a href="/articles/plugins.html" class="article-link">→ Plugins</a>
-                <a href="/articles/downloads.html" class="article-link">→ Downloads</a>
                 <a href="/articles/transparency.html" class="article-link">→ Advertising</a>
             </nav>
         </div>
@@ -185,7 +200,13 @@
         Note: The map opens in a new tab to ensure a full-screen experience.
     </p>
 </div>
-
+<div class="staff-section">
+    <div style="text-align: center;">
+        <a href="http://console.tekkitclassic.com:23333" target="_blank" class="staff-btn">
+            Staff Login
+        </a>
+    </div>
+</div>
     <footer>
         &copy; 2026 Machine Craft - Not an official Minecraft product. Not affiliated with Technic (Syndicate LLC).
         <br>
